@@ -8,11 +8,13 @@ When picking up a task, if it is not an issue yet, convert it to an issue. Creat
 [issue number] (your name) [issue title]
 
 For example, if Charles was working on issue #3 which was titled "Create player sprite", the branch name would be:
-3 (Charles) Create player sprite
+`3 (Charles) Create player sprite`
 
-When making the pull request for it later, follow the same naming convention. The merge should also be squashed.
+When making the pull request for it, follow the same naming convention. The merge should also be squashed.
 
-Try to use the board and pull requests for all tasks.
+Try to use the board and pull requests for any task that would involve changing the code base.
+
+If there's a task that isn't code related, ex: brainstorming, DON'T convert it to an issue.
 
 ## Naming conventions
 
@@ -48,3 +50,4 @@ The following rules are more vague and generalized, and also not always true.
 - If you are writing a comment for a member variable or a function, you can start your comment with a double hashtag `##` to indicate that it is a [documentation comment](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_documentation_comments.html)
 - You can press F1 on your keyboard to access documentation on any class, function, or variable in Godot, including ones you made in the project!
 - Feel free to add things to this file
+- Thank you to Jay Ren for the coding practices lol
