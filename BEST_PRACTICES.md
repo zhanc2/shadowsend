@@ -1,4 +1,18 @@
-# Best Practices (stole this from Jay from another project lol)
+# Best Practices
+
+## Using Github
+
+Tracking what needs to be done, what is being done, and what has been done will happen with the Project Board.
+
+When picking up a task, if it is not an issue yet, convert it to an issue. Create a branch for it with the following convention:
+[issue number] (your name) [issue title]
+
+For example, if Charles was working on issue #3 which was titled "Create player sprite", the branch name would be:
+3 (Charles) Create player sprite
+
+When making the pull request for it later, follow the same naming convention. The merge should also be squashed.
+
+Try to use the board and pull requests for all tasks.
 
 ## Naming conventions
 
